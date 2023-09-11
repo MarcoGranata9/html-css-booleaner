@@ -1,7 +1,4 @@
-
-
-
-/* Header */
+/* HEADER */
 header {
     background-image: url(../img/pattern.png);
     background-color: #2596be;
@@ -12,10 +9,41 @@ header {
 .logo {
     width: 300px;
 }
-/* /Header */
+/* /HEADER */
 
-/* Main */
-/* /Main */
+/* MAIN */
+    /* TITLE */
+    .title {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
 
-/* Footer */
-/* /Footer */
+    .author {
+        color: gray;
+    }
+
+    .skyblue {
+        color: skyblue;
+    }
+
+    .date {
+        color: gray;
+        font-size: small;
+    }
+    /* /TITLE */
+
+    /* TIM IMAGE */
+    .photo {
+        font-size: small;
+    }
+    /* /TIM IMAGE */
+
+    /* LOREM SECTION 1 */
+    .highlighted {
+        background-color: yellow;
+    }
+    /* /LOREM SECTION 1 */
+/* /MAIN */
+
+/* FOOTER */
+/* /FOOTER */

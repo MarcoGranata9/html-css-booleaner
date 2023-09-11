@@ -2,7 +2,7 @@
 header {
     background-image: url(../img/pattern.png);
     background-color: #2596be;
-    background-size: 40%;
+    background-size: 25%;
     height: 125px;
 }
 
@@ -18,7 +18,7 @@ header {
         margin-bottom: 5px;
     }
 
-    .author {
+    .gray {
         color: gray;
     }
 
@@ -43,7 +43,45 @@ header {
         background-color: yellow;
     }
     /* /LOREM SECTION 1 */
+
+    /* TABLE */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    thead {
+        background-color: #2596be;
+        color: white;
+    }
+
+    .azure {
+        background-color: rgba(162, 241, 241,0.5);
+    }
+    /* /TABLE */
 /* /MAIN */
 
 /* FOOTER */
+.interesting {
+    color: gray;
+    font-weight: bold;
+}
+.monitor {
+    background-image: url(../img/monitor.jpg);
+    width: 300px;
+    height: 200px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.graph {
+    background-image: url(../img/graph.jpg);
+    width: 300px;
+    height: 200px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
 /* /FOOTER */
